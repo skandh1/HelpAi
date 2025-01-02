@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import { GoogleGenerativeAI } from "@google/generative-ai";
-import Books from "./books.js";
+import Books from "../books.js";
 import dotenv from "dotenv";
 
 dotenv.config();
